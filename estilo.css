@@ -8,6 +8,7 @@ body {
         #76d100 95% 
     );
     margin: 0;
+    padding: 0px;
     min-height: 100vh;/*  */
     width: 100%;
 }
@@ -19,17 +20,17 @@ body {
 
 }
 #personagem01 {
-    border: solid red 2px
+    /*border: solid red 2px*/
     
     
 }
 
 #personagem02 {
-    border: solid #00FFFF 2px;
+    /*border: solid #00FFFF 2px;*/
 }
 #personagem03
  {
-    border: solid green 2px;
+   /* border: solid green 2px;*/
 }
 
 .personagens{
@@ -38,6 +39,30 @@ body {
     margin-bottom: 20px;
 }
 
-#botao {
-    ;
+.personagens li {
+    align-items: baseline;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
 }
+
+.personagens li p {
+    color: #fff;
+}
+
+#botao {
+   
+    background-color: #0004ff; 
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: EuclidBold;
+    font-size: 12px;
+    font-weight: 500;
+    
+    letter-spacing: -0.6px;/*entre letras*/
+    line-height: 20px;/* altura da linha*/
+    padding: 9px 23px;
+    text-transform: uppercase;/*todas maiusculas*/
+ }
+
